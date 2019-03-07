@@ -68,7 +68,7 @@ const createProjectCards = () => {
     domString += `</div>`;
     // console.log(projects[i].title);
     if (projects[i].available === true) {
-        printToDom(domString, 'projectsPage');
+        printToDom('projectsPage', domString);
         }
 }
 // console.log(domString);
