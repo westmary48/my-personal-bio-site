@@ -35,3 +35,13 @@ z-index: 1;
     color: white;
     text-align: center;
 }
+.images {
+display: flex;
+flex: wrap;
+width: 150px;
+height: 150px;
+}
+
+li {
+    list-style-type: none;
+}
