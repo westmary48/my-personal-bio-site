@@ -62,7 +62,18 @@ margin-right: 40px;
 margin-top: 33px;
 background-color:#F5F5F5;
 justify-content: center
+
       }
+
+      #technologiesPage {
+          display: flex;
+          flex: wrap;
+      }
+
+#projectsPage {
+    display: flex;
+    flex: wrap;
+}
 
       .container {
         width: 100%;
