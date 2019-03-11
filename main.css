@@ -53,8 +53,14 @@ li {
 }
 
 .projectsPage {
-        border: 1px solid #d3d3d3;
         border-radius: .25rem;
+        width: 40%;
+box-shadow:10px 10px 5px;
+border: 1px solid lightblue;
+margin-right: 40px;
+margin-top: 33px;
+background-color:#F5F5F5;
+justify-content: center
       }
 
 
