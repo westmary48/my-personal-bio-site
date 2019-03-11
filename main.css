@@ -15,8 +15,6 @@ body {
 
 #navLinks {
 text-align: center;
-position: relative;
-z-index: 1;
 }
 
 .aboutMe {
@@ -28,6 +26,7 @@ z-index: 1;
 .aboutMe p {
     background-color: black;
     color: white;
+    background-size: cover;
 }
 
 .page-footer {
@@ -40,8 +39,17 @@ display: flex;
 flex: wrap;
 width: 150px;
 height: 150px;
+margin: auto;
+margin-top: 10px;
+margin-left: 10px;
+padding: 10px;
 }
 
 li {
     list-style-type: none;
 }
+.techContainer {
+    background-color:  #FFFFFF;
+}
+
+
