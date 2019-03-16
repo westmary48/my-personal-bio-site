@@ -1,8 +1,8 @@
 body {
     font-size: 16pt;
     color: black;
-
 }
+
 
 .navBar {
     background-image: url('https://www.foodtravelexperts.com/international/wp-content/uploads/2016/07/banner-home3.jpg');
@@ -28,6 +28,10 @@ text-align: center;
     background-color: black;
     color: white;
     background-size: cover;
+}
+
+#bioPage {
+
 }
 
 .page-footer {
@@ -65,14 +69,18 @@ justify-content: center
 
       }
 
-      #technologiesPage {
-          display: flex;
-          flex: wrap;
+#technologiesPage {
+    display: flex;
+    flex: wrap;
       }
 
 #projectsPage {
     display: flex;
     flex: wrap;
+}
+
+#bioPage  {
+    display: flex;
 }
 
       .container {
