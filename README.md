@@ -29,7 +29,7 @@ This is my personal site that displays my bio, the technologies I used, and the 
 5. Javascript
 
 ## Screenshot
-![alt text](https://raw.githubusercontent.com/westmary48/my-personal-bio-site/master/images%20/images.png)
+![alt text](https://github.com/westmary48/my-personal-bio-site/blob/master/images%20/nav.png)
 
 ![alt text](https://raw.githubusercontent.com/westmary48/my-personal-bio-site/master/images%20/bio.png)
 
