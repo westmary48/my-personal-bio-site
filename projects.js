@@ -79,14 +79,15 @@ const addEvents = () => {
       document.getElementById('projectsPage').classList.add('hideStuff')
       document.getElementById('bioPage').classList.remove('hideStuff')
   })
-  document.getElementById('navToTechnologies').addEventListener('click', function (e) {
+  document.getElementById('navToProjects').addEventListener('click', function (e) {
       e.preventDefault()
       document.getElementById('technologiesPage').classList.add('hideStuff')
       document.getElementById('projectsPage').classList.remove('hideStuff')
       document.getElementById('bioPage').classList.add('hideStuff')
   })
   document.getElementById('navToTechnologies').addEventListener('click', function(e) {
-      e.preventDefault()
+    createProjectCards();
+      e.preventDefault();
       document.getElementById('bioPage').classList.add('hideStuff')
       document.getElementById('projectsPage').classList.add('hideStuff')
       document.getElementById('technologiesPage').classList.remove('hideStuff')
